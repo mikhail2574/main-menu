@@ -24,6 +24,7 @@ h1+p{
 }
 .sprint:hover{
     background:#e7f3e7;
+    transition: .2s;
 }
 .sprint p:first-child{
     width: 100%;
