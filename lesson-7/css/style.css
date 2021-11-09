@@ -13,22 +13,24 @@ header{
     color: white;
     padding-top: 2.5vh;
 }
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
 aside{
     padding: 30px;
     width: 30vw;
-    height: 115vh;
-    float: left;
+    height: 120vh;
     background-color: rgba(253, 97, 69,0.7);
 }
 aside ul{
     list-style-type: none;
 }
 section{
+    display: inline-block;
     background-color: khaki;
     padding: 20px;
-    width: 70vw;
-    height: 115vh;
-    float: left;
+    height: 120vh;
 
     display: flex;
     flex-direction: column;
