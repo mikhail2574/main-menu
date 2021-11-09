@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;  
+}
+h2, h3{
+    text-align: center;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: violet;
+    color: white;
+    padding-top: 2.5vh;
+}
+aside{
+    padding: 30px;
+    width: 30vw;
+    height: 115vh;
+    float: left;
+    background-color: rgba(253, 97, 69,0.7);
+}
+aside ul{
+    list-style-type: none;
+}
+section{
+    background-color: khaki;
+    padding: 20px;
+    width: 70vw;
+    height: 115vh;
+    float: left;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20vh;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+ul li + *{
+    margin-top: 10px;
+}
+section img{
+    width: 100%;
+}
+footer{
+    width: 100vw;
+    height: 20vh;
+    position: fixed;
+    background-color: rgba(99, 245, 99,0.5  );
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+}
+section h3{
+    margin: 25px;
+}
+/* HOVER */
+ul li:hover{
+    transition: .3s;
+    font-size: 24px;
+    color: rgb(97, 80, 80);
+}
+.card:hover{
+    width: 230px;
+    height: 230px;
+    background-color: cyan;
+    transition: .5s;
+}
+/* /HOVER */
