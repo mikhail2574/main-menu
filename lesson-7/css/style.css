@@ -18,7 +18,7 @@ header{
     flex-direction: row;
 }
 aside{
-    width: 30%;
+    width: 30vw;
     padding: 30px;
     height: 120vh;
     background-color: rgba(253, 97, 69,0.7);
@@ -34,7 +34,7 @@ section{
     display: flex;
     flex-direction: column;
     margin-bottom: 20vh;
-    width: 70%;
+    width: 70vw;
 }
 ul{
     display: flex;
